@@ -38,9 +38,6 @@ class Connexions extends Component {
         return (
             <View style={styles.principal}>
                 <Text style={styles.title}>Kip's APP</Text>
-                <Text style={styles.color} >kiki</Text>
-                <Text style={styles.color}>test</Text>
-
                 <View style={styles.container}>
                     <TextInput
                         value={this.state.username}
@@ -147,7 +144,4 @@ const styles = StyleSheet.create({
         color: "white",
         textAlign: "center"
     },
-    color:{
-        color:"white"
-    }
 });
